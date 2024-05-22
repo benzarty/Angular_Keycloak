@@ -21,7 +21,7 @@ export class AppComponent implements OnInit{
     this.keycloakService.loadUserProfile().then(profile=>{
            this.profile=profile;
           });
-    
+
   }
 
   onLogout() {
